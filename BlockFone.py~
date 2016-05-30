@@ -1,0 +1,246 @@
+from Objects import *
+import random
+BlFase1={}
+##blocos##
+##linha 1##
+def f1(BlFase1):
+    BlFase1["1"]=Block('image//vermelho.gif',(40,21),(20,50),2,1)
+    BlFase1["2"]=Block('image//vermelho.gif',(40,21),(70,50),2,1)
+    BlFase1["3"]=Block('image//vermelho.gif',(40,21),(120,50),2,1)
+    BlFase1["4"]=Block('image//vermelho.gif',(40,21),(170,50),2,1)
+    BlFase1["5"]=Block('image//vermelho.gif',(40,21),(220,50),2,1)
+    BlFase1["6"]=Block('image//vermelho.gif',(40,21),(270,50),2,1)
+    BlFase1["7"]=Block('image//vermelho.gif',(40,21),(320,50),2,1)
+    BlFase1["8"]=Block('image//vermelho.gif',(40,21),(370,50),2,1)
+    BlFase1["9"]=Block('image//vermelho.gif',(40,21),(420,50),2,1)
+    BlFase1["10"]=Block('image//vermelho.gif',(40,21),(470,50),2,1)
+    BlFase1["11"]=Block('image//vermelho.gif',(40,21),(520,50),2,1)
+    BlFase1["12"]=Block('image//vermelho.gif',(40,21),(570,50),2,1)
+    BlFase1["13"]=Block('image//vermelho.gif',(40,21),(620,50),2,1)
+    BlFase1["14"]=Block('image//vermelho.gif',(40,21),(670,50),2,1)
+    BlFase1["15"]=Block('image//vermelho.gif',(40,21),(720,50),2,1)
+    BlFase1["16"]=Block('image//vermelho.gif',(40,21),(20,81),2,1)
+    BlFase1["17"]=Block('image//marron.gif',(40,21),(70,81),5,2)
+    BlFase1["18"]=Block('image//marron.gif',(40,21),(120,81),5,2)
+    BlFase1["19"]=Block('image//marron.gif',(40,21),(170,81),5,2)
+    BlFase1["20"]=Block('image//verde.gif',(40,21),(220,81),2,1)
+    BlFase1["21"]=Block('image//dourado.gif',(40,21),(270,81),6,3)
+    BlFase1["22"]=Block('image//verde.gif',(40,21),(320,81),4,2)
+    BlFase1["23"]=Block('image//verde.gif',(40,21),(370,81),4,2)
+    BlFase1["24"]=Block('image//verde.gif',(40,21),(420,81),4,2)
+    BlFase1["25"]=Block('image//dourado.gif',(40,21),(470,81),6,3)
+    BlFase1["26"]=Block('image//verde.gif',(40,21),(520,81),2,1)
+    BlFase1["27"]=Block('image//marron.gif',(40,21),(570,81),5,2)
+    BlFase1["28"]=Block('image//marron.gif',(40,21),(620,81),5,2)
+    BlFase1["29"]=Block('image//marron.gif',(40,21),(670,81),5,2)
+    BlFase1["30"]=Block('image//vermelho.gif',(40,21),(720,81),2,1)
+    BlFase1["31"]=Block('image//vermelho.gif',(40,21),(20,112),2,1)
+    BlFase1["32"]=Block('image//roxo.gif',(40,21),(70,112),1,1)
+    BlFase1["33"]=Block('image//roxo.gif',(40,21),(120,112),1,1)
+    BlFase1["34"]=Block('image//roxo.gif',(40,21),(170,112),1,1)
+    BlFase1["35"]=Block('image//verde.gif',(40,21),(220,112),4,2)
+    BlFase1["36"]=Block('image//verde.gif',(40,21),(270,112),4,2)
+    BlFase1["37"]=Block('image//verde.gif',(40,21),(320,112),4,2)
+    BlFase1["38"]=Block('image//dourado.gif',(40,21),(370,112),6,3)
+    BlFase1["39"]=Block('image//verde.gif',(40,21),(420,112),4,2)
+    BlFase1["40"]=Block('image//verde.gif',(40,21),(470,112),4,2)
+    BlFase1["41"]=Block('image//verde.gif',(40,21),(520,112),4,2)
+    BlFase1["42"]=Block('image//roxo.gif',(40,21),(570,112),1,1)
+    BlFase1["43"]=Block('image//roxo.gif',(40,21),(620,112),1,1)
+    BlFase1["44"]=Block('image//roxo.gif',(40,21),(670,112),1,1)
+    BlFase1["45"]=Block('image//vermelho.gif',(40,21),(720,112),2,1)
+    BlFase1["46"]=Block('image//vermelho.gif',(40,21),(20,143),2,1)
+    BlFase1["47"]=Block('image//azul.gif',(40,21),(70,143),3,1)
+    BlFase1["48"]=Block('image//azul.gif',(40,21),(120,143),3,1)
+    BlFase1["49"]=Block('image//azul.gif',(40,21),(170,143),3,1)
+    BlFase1["50"]=Block('image//verde.gif',(40,21),(220,143),4,2)
+    BlFase1["51"]=Block('image//verde.gif',(40,21),(270,143),4,2)
+    BlFase1["52"]=Block('image//verde.gif',(40,21),(320,143),4,2)
+    BlFase1["53"]=Block('image//verde.gif',(40,21),(370,143),4,2)
+    BlFase1["54"]=Block('image//verde.gif',(40,21),(420,143),4,2)
+    BlFase1["55"]=Block('image//verde.gif',(40,21),(470,143),4,2)
+    BlFase1["56"]=Block('image//verde.gif',(40,21),(520,143),4,2)
+    BlFase1["57"]=Block('image//azul.gif',(40,21),(570,143),3,1)
+    BlFase1["58"]=Block('image//azul.gif',(40,21),(620,143),3,1)
+    BlFase1["59"]=Block('image//azul.gif',(40,21),(670,143),3,1)
+    BlFase1["60"]=Block('image//vermelho.gif',(40,21),(720,143),2,1)
+BlRand={}
+BlFase2={
+##blocos##
+##linha 1##
+'block1c1':Block('image//vermelho.gif',(40,21),(345,50),2,1),
+'block1c2':Block('image//vermelho.gif',(40,21),(405,50),2,1),
+##linha 2##
+'block2c1':Block('image//vermelho.gif',(40,21),(265,81),2,1),
+'block2c2':Block('image//marron.gif',(40,21),(486,81),5,2),
+
+##linha 3##
+'block3c1':Block('image//vermelho.gif',(40,21),(65,112),2,1),
+'block3c2':Block('image//roxo.gif',(40,21),(110,112),1,1),
+'block3c3':Block('image//roxo.gif',(40,21),(190,112),1,1),
+'block3c4':Block('image//roxo.gif',(40,21),(235,112),1,1),
+'block3c5':Block('image//verde.gif',(40,21),(300,112),4,2),
+'block3c6':Block('image//verde.gif',(40,21),(345,112),4,2),
+'block3c7':Block('image//verde.gif',(40,21),(405,112),4,2),
+'block3c8':Block('image//dourado.gif',(40,21),(450,112),6,3),
+'block3c9':Block('image//verde.gif',(40,21),(510,112),4,2),
+'block3c10':Block('image//verde.gif',(40,21),(560,112),4,2),
+'block3c11':Block('image//verde.gif',(40,21),(635,112),4,2),
+'block3c12':Block('image//roxo.gif',(40,21),(680,112),1,1),
+
+##linha 4##
+'block4c1':Block('image//vermelho.gif',(40,21),(130,143),2,1),
+'block4c2':Block('image//azul.gif',(40,21),(175,143),3,1),
+'block4c3':Block('image//azul.gif',(40,21),(260,143),3,1),
+'block4c4':Block('image//azul.gif',(40,21),(350,143),3,1),
+'block4c5':Block('image//verde.gif',(40,21),(395,143),4,2),
+'block4c6':Block('image//verde.gif',(40,21),(480,143),4,2),
+'block4c7':Block('image//verde.gif',(40,21),(570,143),4,2),
+'block4c8':Block('image//verde.gif',(40,21),(615,143),4,2),
+
+##linha 5##
+'block5c1':Block('image//vermelho.gif',(40,21),(65,173),2,1),
+'block5c2':Block('image//vermelho.gif',(40,21),(680,173),2,1),
+
+##linha 6##
+'block6c1':Block('image//vermelho.gif',(40,21),(65,213),2,1),
+'block6c2':Block('image//vermelho.gif',(40,21),(680,213),2,1),
+
+
+
+##linha 8##
+'block8c1':Block('image//vermelho.gif',(40,21),(65,263),2,1),
+'block8c2':Block('image//vermelho.gif',(40,21),(680,263),2,1),
+
+##linha 9##
+'block9c1':Block('image//vermelho.gif',(40,21),(65,293),2,1),
+'block9c2':Block('image//vermelho.gif',(40,21),(680,293),2,1),
+
+##linha 10##
+'block10c1':Block('image//vermelho.gif',(40,21),(65,323),2,1),
+'block10c2':Block('image//vermelho.gif',(40,21),(680,323),2,1)
+
+
+}
+BlFase3={
+##blocos##
+##linha 1##
+'block1c1':Block('image//azul.gif',(40,21),(135,50),3,1),
+'block1c2':Block('image//azul.gif',(40,21),(190,50),3,1),
+'block1c3':Block('image//azul.gif',(40,21),(240,50),3,1),
+'block1c4':Block('image//azul.gif',(40,21),(295,50),3,1),
+'block1c5':Block('image//azul.gif',(40,21),(350,50),3,1),
+'block1c6':Block('image//azul.gif',(40,21),(405,50),3,1),
+'block1c7':Block('image//azul.gif',(40,21),(455,50),3,1),
+'block1c8':Block('image//azul.gif',(40,21),(510,50),3,1),
+'block1c9':Block('image//azul.gif',(40,21),(565,50),3,1),
+'block1c10':Block('image//azul.gif',(40,21),(620,50),3,1),
+
+
+##linha 2##
+'block2c1':Block('image//azul.gif',(40,21),(190,81),3,1),
+'block2c2':Block('image//azul.gif',(40,21),(240,81),3,1),
+'block2c3':Block('image//azul.gif',(40,21),(295,81),3,1),
+'block2c4':Block('image//azul.gif',(40,21),(350,81),3,1),
+'block2c5':Block('image//azul.gif',(40,21),(405,81),3,1),
+'block2c6':Block('image//azul.gif',(40,21),(455,81),3,1),
+'block2c7':Block('image//azul.gif',(40,21),(510,81),3,1),
+'block2c8':Block('image//azul.gif',(40,21),(565,81),3,1),
+
+##linha 3##
+
+'block3c1':Block('image//azul.gif',(40,21),(245,112),3,1),
+'block3c2':Block('image//azul.gif',(40,21),(295,112),3,1),
+'block3c3':Block('image//azul.gif',(40,21),(350,112),3,1),
+'block3c4':Block('image//azul.gif',(40,21),(405,112),3,1),
+'block3c5':Block('image//azul.gif',(40,21),(455,112),3,1),
+'block3c6':Block('image//azul.gif',(40,21),(510,112),3,1),
+
+##linha 4##
+
+'block4c1':Block('image//azul.gif',(40,21),(295,143),3,1),
+'block4c2':Block('image//azul.gif',(40,21),(350,143),3,1),
+'block4c3':Block('image//azul.gif',(40,21),(405,143),3,1),
+'block4c4':Block('image//azul.gif',(40,21),(455,143),3,1),
+
+##linha 5##
+
+'block5c1':Block('image//azul.gif',(40,21),(350,174),3,1),
+'block5c2':Block('image//azul.gif',(40,21),(405,174),3,1),
+
+
+
+##linha 6##
+
+'block6c1':Block('image//azul.gif',(40,21),(380,205),3,1)
+}
+BlFase4={
+##blocos##
+##linha 1##
+'block1c1':Block('image//vermelho.gif',(40,21),(180,50),2,1),
+'block1c2':Block('image//vermelho.gif',(40,21),(280,50),2,1),
+'block1c3':Block('image//vermelho.gif',(40,21),(335,50),2,1),
+'block1c4':Block('image//vermelho.gif',(40,21),(390,50),2,1),
+'block1c5':Block('image//vermelho.gif',(40,21),(440,50),2,1),
+
+##linha 2##
+'block2c1':Block('image//vermelho.gif',(40,21),(180,81),2,1),
+'block2c2':Block('image//vermelho.gif',(40,21),(280,81),2,1),
+'block2c3':Block('image//vermelho.gif',(40,21),(335,81),2,1),
+'block2c4':Block('image//vermelho.gif',(40,21),(390,81),2,1),
+'block2c5':Block('image//vermelho.gif',(40,21),(440,81),2,1),
+
+##linha 3##
+
+'block3c1':Block('image//vermelho.gif',(40,21),(180,112),2,1),
+'block3c2':Block('image//roxo.gif',(40,21),(360,112),1,1),
+
+##linha 4##
+
+'block4c1':Block('image//vermelho.gif',(40,21),(180,143),2,1),
+'block4c2':Block('image//roxo.gif',(40,21),(360,143),1,1),
+
+##linha 5##
+
+'block5c1':Block('image//vermelho.gif',(40,21),(280,174),2,1),
+'block5c2':Block('image//roxo.gif',(40,21),(335,174),1,1),
+'block5c3':Block('image//vermelho.gif',(40,21),(390,174),2,1),
+'block5c4':Block('image//roxo.gif',(40,21),(440,174),1,1),
+
+
+
+##linha 6##
+
+'block6c1':Block('image//vermelho.gif',(40,21),(180,205),2,1),
+'block6c2':Block('image//vermelho.gif',(40,21),(280,205),2,1),
+'block6c3':Block('image//vermelho.gif',(40,21),(335,205),2,1),
+'block6c4':Block('image//vermelho.gif',(40,21),(390,205),2,1),
+'block6c5':Block('image//vermelho.gif',(40,21),(440,205),2,1),
+
+
+##linha 7##
+
+'block7c1':Block('image//vermelho.gif',(40,21),(180,236),2,1),
+'block7c2':Block('image//roxo.gif',(40,21),(360,236),1,1),
+
+##linha 8##
+
+'block8c1':Block('image//vermelho.gif',(40,21),(180,267),2,1),
+'block8c2':Block('image//roxo.gif',(40,21),(360,267),1,1),
+
+##linha 9##
+
+'block9c1':Block('image//vermelho.gif',(40,21),(180,298),2,1),
+'block9c2':Block('image//vermelho.gif',(40,21),(240,298),2,1),
+'block9c3':Block('image//vermelho.gif',(40,21),(295,298),2,1),
+'block9c4':Block('image//vermelho.gif',(40,21),(350,298),2,1),
+'block9c5':Block('image//vermelho.gif',(40,21),(405,298),2,1),
+'block9c6':Block('image//vermelho.gif',(40,21),(460,298),2,1),
+'block9c7':Block('image//vermelho.gif',(40,21),(515,298),2,1)
+
+}
+def rand(BlFase1,BlRand):
+    for key in BlFase1:
+        f1(BlFase1)
+        BlRand[key]=BlFase1[str(random.randint(1,60))]
+
